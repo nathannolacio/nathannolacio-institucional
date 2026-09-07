@@ -6,6 +6,7 @@ import { whatsappUrl } from "@/lib/utils";
 
 const navLinks = [
   { href: "#processo", label: "Como eu trabalho" },
+  { href: "#diferenciais", label: "Diferenciais" },
   { href: "#servicos", label: "Serviços" },
   { href: "#projetos", label: "Projetos" },
   { href: "#depoimentos", label: "Depoimentos" },

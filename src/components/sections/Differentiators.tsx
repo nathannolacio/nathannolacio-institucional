@@ -36,6 +36,7 @@ function Card({
 export function Differentiators() {
   return (
     <section
+      id="diferenciais"
       data-header-theme="dark"
       className="relative overflow-hidden bg-grafite text-marfim"
     >
