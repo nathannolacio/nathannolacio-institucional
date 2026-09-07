@@ -2,16 +2,7 @@
 
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { whatsappUrl } from "@/lib/utils";
-
-const navLinks = [
-  { href: "#processo", label: "Como eu trabalho" },
-  { href: "#diferenciais", label: "Diferenciais" },
-  { href: "#servicos", label: "Serviços" },
-  { href: "#projetos", label: "Projetos" },
-  { href: "#depoimentos", label: "Depoimentos" },
-  { href: "#contato", label: "Contato" },
-];
+import { NAV_LINKS, whatsappUrl } from "@/lib/utils";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -68,7 +59,7 @@ export function Header() {
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">
-          {navLinks.map((link) => (
+          {NAV_LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
@@ -111,7 +102,7 @@ export function Header() {
           }`}
         >
           <div className="flex flex-col gap-5">
-            {navLinks.map((link) => (
+            {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
                 href={link.href}

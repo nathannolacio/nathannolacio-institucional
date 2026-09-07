@@ -5,7 +5,7 @@ export function Contact() {
     <section
       id="contato"
       data-header-theme="dark"
-      className="relative overflow-hidden bg-grafite text-marfim"
+      className="relative bg-grafite text-marfim"
     >
       <div
         aria-hidden
