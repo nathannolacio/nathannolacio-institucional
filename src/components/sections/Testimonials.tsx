@@ -109,7 +109,11 @@ export function Testimonials() {
   }
 
   return (
-    <section className="bg-marfim text-grafite">
+    <section
+      id="depoimentos"
+      data-header-theme="light"
+      className="bg-marfim text-grafite"
+    >
       <div className="mx-auto max-w-6xl px-6 py-28 md:py-36">
         <p className="mb-6 text-xs font-medium uppercase tracking-wide text-bronze">
           Depoimentos
@@ -117,6 +121,10 @@ export function Testimonials() {
         <h2 className="max-w-2xl font-display text-3xl font-medium leading-tight tracking-tight md:text-5xl">
           O que meus clientes dizem.
         </h2>
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-grafite/70">
+          Depoimentos reais de clientes que já confiaram no meu trabalho
+          pra colocar o negócio no ar.
+        </p>
 
         <div
           className="relative mt-16 h-120 touch-pan-y select-none overflow-hidden active:cursor-grabbing"

@@ -5,14 +5,14 @@ const projects = [
   {
     title: "Método Florescer",
     description:
-      "Landing page de venda para um e-book de educação financeira, com foco total em conversão.",
+      "Landing page de venda pra um e-book de educação financeira. O desafio aqui era simples de descrever e difícil de acertar: convencer alguém a comprar um material digital sem nunca ter falado com a autora. Cada seção da página foi pensada pra construir essa confiança.",
     image: "/images/project-metodo-florescer.png",
     url: "https://metodo-florescer.vercel.app/",
   },
   {
     title: "Maria Reis Terapeuta",
     description:
-      "Landing page para uma terapeuta, pensada pra passar confiança e gerar agendamentos.",
+      "Landing page pra uma terapeuta que precisava de um espaço que passasse acolhimento antes mesmo da primeira conversa. Em vez de um site cheio de informação, construímos algo direto, que gera agendamentos sem parecer frio ou comercial demais.",
     image: "/images/project-maria-reis.png",
     url: "https://www.mariareisterapeuta.com/",
   },
@@ -20,7 +20,11 @@ const projects = [
 
 export function Projects() {
   return (
-    <section className="bg-grafite text-marfim">
+    <section
+      id="projetos"
+      data-header-theme="dark"
+      className="bg-grafite text-marfim"
+    >
       <div className="mx-auto max-w-6xl px-6 py-28 md:py-36">
         <p className="mb-6 text-xs font-medium uppercase tracking-wide text-dourado">
           Projetos
@@ -28,6 +32,10 @@ export function Projects() {
         <h2 className="max-w-2xl font-display text-3xl font-medium leading-tight tracking-tight md:text-5xl">
           Alguns projetos que já entreguei.
         </h2>
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-marfim/70">
+          São só os primeiros de muitos. Cada um resolveu um problema real
+          de alguém que precisava de mais do que só uma página bonita.
+        </p>
 
         <div className="mt-16 grid grid-cols-1 gap-10 md:grid-cols-2">
           {projects.map((project) => (

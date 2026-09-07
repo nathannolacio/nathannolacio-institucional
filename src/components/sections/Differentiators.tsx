@@ -35,7 +35,11 @@ function Card({
 
 export function Differentiators() {
   return (
-    <section className="relative overflow-hidden bg-grafite text-marfim">
+    <section
+      id="diferenciais"
+      data-header-theme="dark"
+      className="relative overflow-hidden bg-grafite text-marfim"
+    >
       <div
         aria-hidden
         className="pointer-events-none absolute -top-24 left-1/2 h-80 w-105 -translate-x-1/2 rounded-full bg-dourado/10 blur-[120px]"
@@ -48,26 +52,36 @@ export function Differentiators() {
         <h2 className="max-w-2xl font-display text-3xl font-medium leading-tight tracking-tight md:text-5xl">
           O que muda quando você fecha comigo.
         </h2>
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-marfim/70">
+          São coisas simples, mas que fazem toda diferença no dia a dia de
+          quem contrata: menos burocracia, mais clareza e a garantia de que
+          você não vai ficar na mão depois que o projeto sai do ar.
+        </p>
 
         <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-3">
           <Card title="Atendimento direto">
-            Quem fala com você é quem constrói o projeto.{" "}
+            Quem fala com você sobre o seu projeto é a mesma pessoa que
+            constrói ele, sempre eu, do primeiro contato até a entrega
+            final.{" "}
             <span className="font-medium text-dourado">
-              Sem intermediário
+              Sem atendente, sem gerente de conta
             </span>
-            , sem fila de atendimento.
+            , sem fila de espera pra alguém te responder.
           </Card>
           <Card title="Sem jargão técnico">
-            Explico cada etapa com clareza e deixo você{" "}
+            Você não precisa entender nada de tecnologia pra confiar no
+            resultado. Explico cada etapa em português claro e deixo você{" "}
             <span className="font-medium text-dourado">
               confortável usando
             </span>{" "}
-            o que foi entregue.
+            o que foi entregue, sem depender de mim pra tudo.
           </Card>
           <Card title="2 meses de manutenção grátis">
-            Se aparecer algum bug depois da entrega, eu resolvo{" "}
-            <span className="font-medium text-dourado">sem custo</span> nesse
-            período.
+            Imprevisto acontece, e por isso todo projeto sai com 2 meses de
+            manutenção grátis. Se aparecer algum bug ou problema nesse
+            período, eu resolvo{" "}
+            <span className="font-medium text-dourado">sem custo nenhum</span>{" "}
+            pra você.
           </Card>
         </div>
       </div>
