@@ -80,7 +80,7 @@ export function Header() {
           rel="noopener noreferrer"
           className="hidden rounded-full bg-dourado px-5 py-2.5 text-sm font-medium text-grafite transition hover:shadow-[0_0_30px_-6px_rgba(180,145,90,0.7)] lg:inline-flex"
         >
-          Falar no WhatsApp
+          Fazer um orçamento
         </a>
 
         <button

@@ -27,7 +27,7 @@ export function Hero() {
           </h1>
           <p className="mt-7 max-w-md text-base leading-relaxed text-marfim/70">
             Landing pages, sites institucionais, páginas de links e sistemas
-            sob medida — pra você que é autônomo ou toca um comércio local e
+            sob medida, pra você que é autônomo ou toca um comércio local e
             precisa de uma presença digital que funciona, sem termo técnico e
             sem enrolação.
           </p>
@@ -43,12 +43,6 @@ export function Hero() {
             >
               Falar no WhatsApp
               <span aria-hidden>→</span>
-            </a>
-            <a
-              href="#contato"
-              className="text-sm text-marfim/60 underline underline-offset-4 transition hover:text-dourado"
-            >
-              ou peça um orçamento pelo site
             </a>
           </div>
         </div>

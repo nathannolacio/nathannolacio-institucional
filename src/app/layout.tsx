@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Nathan Nolácio — Soluções em Tecnologia",
+  title: "Nathan Nolacio | Soluções em Tecnologia",
   description:
     "Soluções em tecnologia para pequenos negócios e pequenas empresas.",
 };

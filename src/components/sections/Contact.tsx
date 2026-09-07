@@ -20,7 +20,9 @@ export function Contact() {
           Vamos tirar sua ideia do papel?
         </h2>
         <p className="mx-auto mt-6 max-w-md text-base leading-relaxed text-marfim/70">
-          Me chama no WhatsApp e me conta o que você precisa.
+          Seja uma dúvida rápida ou um projeto que já está na sua cabeça há
+          tempo, me chama no WhatsApp e me conta o que você precisa. Não
+          tem pergunta boba nem projeto pequeno demais.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4">

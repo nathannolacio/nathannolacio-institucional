@@ -6,7 +6,7 @@ const services = [
     icon: LayoutTemplate,
     title: "Landing Pages",
     description:
-      "Uma página única e direta ao ponto, feita pra vender um produto, serviço ou infoproduto. Pra quem já sabe o que quer divulgar e precisa transformar visita em cliente.",
+      "Uma página única e direta ao ponto, pensada pra vender um produto, serviço ou infoproduto específico. Cada elemento ali (texto, botão, imagem) existe com um propósito: transformar quem visita em cliente. Ideal pra quem já sabe exatamente o que quer divulgar.",
     message:
       "Oi Nathan! Vim pelo site e quero um orçamento para uma Landing Page.",
   },
@@ -14,7 +14,7 @@ const services = [
     icon: Globe,
     title: "Sites Institucionais",
     description:
-      "Um site completo pra apresentar seu negócio, seus serviços e conquistar confiança. Pra quem quer presença digital além das redes sociais.",
+      "Um site completo pra apresentar o seu negócio, contar sua história e mostrar seus serviços com profissionalismo. Vai além do que uma rede social entrega: é um espaço só seu, que passa confiança pra quem está decidindo se fecha com você.",
     message:
       "Oi Nathan! Vim pelo site e quero um orçamento para um Site Institucional.",
   },
@@ -22,7 +22,7 @@ const services = [
     icon: Link2,
     title: "Páginas de Links",
     description:
-      "Todos os seus links importantes reunidos em um só lugar — WhatsApp, Instagram, catálogo. Pra quem já vive nas redes e precisa organizar o contato na bio.",
+      "Todos os seus links importantes reunidos num só lugar: WhatsApp, Instagram, catálogo, cardápio, o que for. Perfeita pra quem já construiu presença nas redes e precisa de um jeito simples de direcionar quem clica na bio pra onde interessa.",
     message:
       "Oi Nathan! Vim pelo site e quero um orçamento para uma Página de Links.",
   },
@@ -30,7 +30,7 @@ const services = [
     icon: Cog,
     title: "Sistemas Sob Medida",
     description:
-      "Uma ferramenta pensada especificamente pra resolver uma necessidade do seu negócio, como agendamento ou controle de clientes. Pra quem não encontrou nada pronto que se encaixasse.",
+      "Uma ferramenta construída especificamente pra resolver uma necessidade real do seu negócio, seja agendamento, controle de clientes, gestão de pedidos, o que for. Pra quem já tentou soluções prontas e percebeu que nenhuma encaixava direito.",
     message:
       "Oi Nathan! Vim pelo site e quero um orçamento para um Sistema Sob Medida.",
   },
@@ -50,6 +50,11 @@ export function Services() {
         <h2 className="max-w-2xl font-display text-3xl font-medium leading-tight tracking-tight md:text-5xl">
           O que eu construo pra você.
         </h2>
+        <p className="mt-6 max-w-xl text-base leading-relaxed text-grafite/70">
+          Cada projeto começa do zero, pensado pro que o seu negócio
+          realmente precisa, nada de solução genérica reaproveitada de
+          outro cliente.
+        </p>
 
         <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2">
           {services.map((service) => (
