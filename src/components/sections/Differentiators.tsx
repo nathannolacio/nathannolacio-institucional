@@ -35,7 +35,10 @@ function Card({
 
 export function Differentiators() {
   return (
-    <section className="relative overflow-hidden bg-grafite text-marfim">
+    <section
+      data-header-theme="dark"
+      className="relative overflow-hidden bg-grafite text-marfim"
+    >
       <div
         aria-hidden
         className="pointer-events-none absolute -top-24 left-1/2 h-80 w-105 -translate-x-1/2 rounded-full bg-dourado/10 blur-[120px]"

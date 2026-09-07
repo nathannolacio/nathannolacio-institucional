@@ -20,7 +20,11 @@ const projects = [
 
 export function Projects() {
   return (
-    <section className="bg-grafite text-marfim">
+    <section
+      id="projetos"
+      data-header-theme="dark"
+      className="bg-grafite text-marfim"
+    >
       <div className="mx-auto max-w-6xl px-6 py-28 md:py-36">
         <p className="mb-6 text-xs font-medium uppercase tracking-wide text-dourado">
           Projetos

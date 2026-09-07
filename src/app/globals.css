@@ -10,6 +10,11 @@
   --font-display: var(--font-space-grotesk);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
 body {
   background: var(--color-marfim);
   color: var(--color-grafite);

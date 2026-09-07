@@ -3,7 +3,10 @@ import { whatsappUrl } from "@/lib/utils";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-grafite text-marfim">
+    <section
+      data-header-theme="dark"
+      className="relative overflow-hidden bg-grafite text-marfim"
+    >
       <div
         aria-hidden
         className="pointer-events-none absolute -top-32 right-[-10%] h-105 w-105 rounded-full bg-dourado/20 blur-[120px]"

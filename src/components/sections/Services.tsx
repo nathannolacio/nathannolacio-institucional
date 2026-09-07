@@ -38,7 +38,11 @@ const services = [
 
 export function Services() {
   return (
-    <section className="bg-marfim text-grafite">
+    <section
+      id="servicos"
+      data-header-theme="light"
+      className="bg-marfim text-grafite"
+    >
       <div className="mx-auto max-w-6xl px-6 py-28 md:py-36">
         <p className="mb-6 text-xs font-medium uppercase tracking-wide text-bronze">
           Serviços

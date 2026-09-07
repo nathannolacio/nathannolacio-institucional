@@ -4,6 +4,7 @@ export function Contact() {
   return (
     <section
       id="contato"
+      data-header-theme="dark"
       className="relative overflow-hidden bg-grafite text-marfim"
     >
       <div
